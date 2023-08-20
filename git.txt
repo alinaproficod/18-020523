@@ -1,0 +1,169 @@
+
+Alina@DESKTOP-EQ01936 MINGW64 ~ (master)
+$ git clone https://github.com/alinaproficod/18-020523
+fatal: destination path '18-020523' already exists and is not an empty directory
+.
+
+Alina@DESKTOP-EQ01936 MINGW64 ~ (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Alina/.git/
+
+Alina@DESKTOP-EQ01936 MINGW64 ~ (master)
+$ git commit -m "Repozitorii"
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .bash_history
+        .bashrc
+        .config/
+        .gitconfig
+        .jdks/
+        .jetbrains.vmoptions.sh
+        .lesshst
+        .m2/
+        .profile
+        .ssh/
+        .vscode/
+        .zshrc
+        18-020523/
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IdeaProjects/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{7fcb2fa6-1004-11ee-bf9f-847beb24fa2b}.TxR.0.regtrans-ms
+        NTUSER.DAT{7fcb2fa6-1004-11ee-bf9f-847beb24fa2b}.TxR.1.regtrans-ms
+        NTUSER.DAT{7fcb2fa6-1004-11ee-bf9f-847beb24fa2b}.TxR.2.regtrans-ms
+        NTUSER.DAT{7fcb2fa6-1004-11ee-bf9f-847beb24fa2b}.TxR.blf
+        NTUSER.DAT{7fcb2fa7-1004-11ee-bf9f-847beb24fa2b}.TM.blf
+        NTUSER.DAT{7fcb2fa7-1004-11ee-bf9f-847beb24fa2b}.TMContainer000000000000
+00000001.regtrans-ms
+        NTUSER.DAT{7fcb2fa7-1004-11ee-bf9f-847beb24fa2b}.TMContainer000000000000
+00000002.regtrans-ms
+        OneDrive/
+        Pictures/
+        Saved Games/
+        Searches/
+        Videos/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        song.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Alina@DESKTOP-EQ01936 MINGW64 ~ (master)
+$ git remote add origin https://github.com/alinaproficod/18-020523
+
+Alina@DESKTOP-EQ01936 MINGW64 ~ (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/alinaproficod/18-020523'
+
+Alina@DESKTOP-EQ01936 MINGW64 ~ (master)
+$ git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 9 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (9/9), 1.46 KiB | 42.00 KiB/s, done.
+From https://github.com/alinaproficod/18-020523
+ * [new branch]      main       -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+Alina@DESKTOP-EQ01936 MINGW64 ~ (master)
+$ cd
+
+Alina@DESKTOP-EQ01936 MINGW64 ~ (master)
+$ ls -al
+total 7227
+drwxr-xr-x 1 Alina 197121       0 Aug 20 09:26  ./
+drwxr-xr-x 1 Alina 197121       0 Jun 21 00:43  ../
+drwxr-xr-x 1 Alina 197121       0 Jul 14 22:28  .android/
+-rwxr-xr-x 1 Alina 197121   30818 Aug 20 09:28  .bash_history*
+-rw-r--r-- 1 Alina 197121     148 Jul 15 18:02  .bashrc
+drwxr-xr-x 1 Alina 197121       0 Jul 15 17:49  .config/
+drwxr-xr-x 1 Alina 197121       0 Aug 20 09:32  .git/
+-rw-r--r-- 1 Alina 197121      68 Aug 15 20:03  .gitconfig
+drwxr-xr-x 1 Alina 197121       0 Aug 16 20:01  .jdks/
+-rwxr-xr-x 1 Alina 197121    1763 Jul 15 18:02  .jetbrains.vmoptions.sh*
+-rw-r--r-- 1 Alina 197121      20 Aug 20 09:17  .lesshst
+drwxr-xr-x 1 Alina 197121       0 Jul 16 11:41  .m2/
+-rw-r--r-- 1 Alina 197121     148 Jul 15 18:02  .profile
+drwxr-xr-x 1 Alina 197121       0 Aug 20 00:26  .ssh/
+drwxr-xr-x 1 Alina 197121       0 Jun 21 13:47  .vscode/
+-rw-r--r-- 1 Alina 197121     148 Jul 15 18:02  .zshrc
+drwxr-xr-x 1 Alina 197121       0 Aug 20 00:52  18-020523/
+drwxr-xr-x 1 Alina 197121       0 Jun 21 00:34 '3D Objects'/
+drwxr-xr-x 1 Alina 197121       0 Jun 21 00:33  AppData/
+lrwxrwxrwx 1 Alina 197121      30 Jun 21 00:33 'Application Data' -> /c/Users/Alina/AppData/Roaming/
+drwxr-xr-x 1 Alina 197121       0 Jun 21 00:34  Contacts/
+lrwxrwxrwx 1 Alina 197121      58 Jun 21 00:33  Cookies -> /c/Users/Alina/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 Alina 197121       0 Aug 15 22:52  Desktop/
+drwxr-xr-x 1 Alina 197121       0 Jul  1 22:18  Documents/
+drwxr-xr-x 1 Alina 197121       0 Aug 17 23:37  Downloads/
+drwxr-xr-x 1 Alina 197121       0 Jun 21 00:34  Favorites/
+drwxr-xr-x 1 Alina 197121       0 Aug 17 10:24  IdeaProjects/
+drwxr-xr-x 1 Alina 197121       0 Aug  4 09:45  IntelGraphicsProfiles/
+drwxr-xr-x 1 Alina 197121       0 Jun 21 00:34  Links/
+lrwxrwxrwx 1 Alina 197121      28 Jun 21 00:33 'Local Settings' -> /c/Users/Alina/AppData/Local/
+drwxr-xr-x 1 Alina 197121       0 Jun 21 00:34  Music/
+lrwxrwxrwx 1 Alina 197121      24 Jun 21 00:33 'My Documents' -> /c/Users/Alina/Documents/
+-rw-r--r-- 1 Alina 197121 1835008 Jul 19 19:54  NTUSER.DAT
+-rw-r--r-- 1 Alina 197121 1048576 Aug 15 20:08  NTUSER.DAT{7fcb2fa6-1004-11ee-bf9f-847beb24fa2b}.TxR.0.regtrans-ms
+-rw-r--r-- 1 Alina 197121 1048576 Aug  4 09:45  NTUSER.DAT{7fcb2fa6-1004-11ee-bf9f-847beb24fa2b}.TxR.1.regtrans-ms
+-rw-r--r-- 1 Alina 197121 1048576 Aug  4 09:45  NTUSER.DAT{7fcb2fa6-1004-11ee-bf9f-847beb24fa2b}.TxR.2.regtrans-ms
+-rw-r--r-- 1 Alina 197121   65536 Aug 15 20:08  NTUSER.DAT{7fcb2fa6-1004-11ee-bf9f-847beb24fa2b}.TxR.blf
+-rw-r--r-- 1 Alina 197121   65536 Jun 21 00:34  NTUSER.DAT{7fcb2fa7-1004-11ee-bf9f-847beb24fa2b}.TM.blf
+-rw-r--r-- 1 Alina 197121  524288 Jun 21 00:33  NTUSER.DAT{7fcb2fa7-1004-11ee-bf9f-847beb24fa2b}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 Alina 197121  524288 Jun 21 00:33  NTUSER.DAT{7fcb2fa7-1004-11ee-bf9f-847beb24fa2b}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 Alina 197121      66 Jun 21 00:33  NetHood -> '/c/Users/Alina/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 Alina 197121       0 Jun 21 00:36  OneDrive/
+drwxr-xr-x 1 Alina 197121       0 Jun 26 18:04  Pictures/
+lrwxrwxrwx 1 Alina 197121      66 Jun 21 00:33  PrintHood -> '/c/Users/Alina/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 Alina 197121      55 Jun 21 00:33  Recent -> /c/Users/Alina/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 Alina 197121       0 Jun 21 00:34 'Saved Games'/
+drwxr-xr-x 1 Alina 197121       0 Jun 21 00:35  Searches/
+lrwxrwxrwx 1 Alina 197121      55 Jun 21 00:33  SendTo -> /c/Users/Alina/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 Alina 197121      59 Jun 21 00:33 'Start Menu' -> '/c/Users/Alina/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 Alina 197121      58 Jun 21 00:33  Templates -> /c/Users/Alina/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 Alina 197121       0 Jun 26 18:04  Videos/
+-rw-r--r-- 1 Alina 197121  540672 Jun 21 00:33  ntuser.dat.LOG1
+-rw-r--r-- 1 Alina 197121  602112 Jun 21 00:33  ntuser.dat.LOG2
+-rw-r--r-- 1 Alina 197121      20 Jun 21 00:33  ntuser.ini
+-rw-r--r-- 1 Alina 197121      20 Aug 20 00:37  song.txt
+
+Alina@DESKTOP-EQ01936 MINGW64 ~ (master)
+$ ^C
+
+Alina@DESKTOP-EQ01936 MINGW64 ~ (master)
+$
